@@ -27,14 +27,15 @@ console.log('My name is', fullName, 'and I think', luckyNumber, 'is a winner!')
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'chicken strips';
-console.log( food) ;
+console.log( 'my favorite food is', food) ;
+
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 2;
-console.log( pets );
+console.log('number of pets I have is', pets );
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
-console.log( friendsPets );
+console.log( 'number of pets my friend has is', friendsPets );
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
