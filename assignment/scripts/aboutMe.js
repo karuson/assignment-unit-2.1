@@ -9,7 +9,7 @@ console.log('the lastName variable is', lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-const fullName = firstName + lastName;
+const fullName = `${firstName} ${lastName}`;
 
 // 4 - Console log the value of `fullName`
 console.log('the fullName variable is ', fullName);
