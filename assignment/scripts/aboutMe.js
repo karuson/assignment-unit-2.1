@@ -49,7 +49,7 @@ console.log('the number of pets allowed is', allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
-// adventurous will default to true
+// if (adventurous) is the same as if (adventurous = true)
 if (adventurous) {
     console.log('Adventures are great!');
 }
@@ -98,7 +98,7 @@ if (pets < 0 || friendsPets < 0) {
 } else if (pets < friendsPets) {
     mostPets = friendsPets;
     console.log("My friend has the most pets!");
-} 
+}
 
 console.log(mostPets);
 
@@ -109,8 +109,20 @@ console.log(mostPets);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
-
+switch (luckyNumber) {
+    case 1:
+        console.log('First is the worst');
+        break;
+    case 2:
+        console.log('Second is the best');
+        break;
+    case 3:
+        console.log('Third is the one with the polka dot dress');
+        break;
+    default:
+        console.log('Luck is what happens when preparation meets opportunity')
+}
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+adventurous ? console.log('Adventures are great!') : console.log('How about we stay home?')
